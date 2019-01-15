@@ -2,9 +2,42 @@
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-img {
+h1, h2, h3 {
+  color:#4b2e83;
+  /* background-color: blue; */
+}
+
+h2.aboutTitle {
+  font-style: italic;
+  font-weight: 200;
+}
+
+/* img {
   height: 300px;
   width: 200px;
   transform: rotate(-90deg);
   padding: 1.5em;
+} */
+
+.floorPlan {
+  height: 300px;
+  width: 200px;
+  transform: rotate(-90deg);
+  padding: 1.5em;
+}
+
+article p {
+  margin-left: 1rem;
+}
+
+article > p {
+  margin-left: 0;
+}
+
+a:hover { /* makes changes to what happens when you over over <a> links */
+  color: #85754d;
+}
+
+footer {
+  font-size: 0.25em
 }
